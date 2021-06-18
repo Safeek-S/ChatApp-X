@@ -1,3 +1,4 @@
+//creating room
 document.getElementById("createRoom").addEventListener('click', (e) => {
     e.preventDefault();
     username = document.getElementById("username").value;
@@ -15,7 +16,7 @@ document.getElementById("createRoom").addEventListener('click', (e) => {
         alert("Please enter username");
     }
 });
-
+//join room
 document.getElementById("joinRoom").addEventListener('click', (e) => {
     e.preventDefault();
     username = document.getElementById("username").value;
